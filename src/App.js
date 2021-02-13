@@ -10,6 +10,7 @@ import { Navbar } from './app/Navbar'
 import { AddPostForm } from './features/posts/AddPostForm'
 
 import { PostsList } from './features/posts/PostsList'
+import { QuizzesList } from './features/quizzes/QuizzesList'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <React.Fragment>
                 <AddPostForm />
                 <PostsList />
+                <QuizzesList />
               </React.Fragment>
             )}
           />
