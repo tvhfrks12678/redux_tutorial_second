@@ -11,6 +11,7 @@ import { AddPostForm } from './features/posts/AddPostForm'
 
 import { PostsList } from './features/posts/PostsList'
 import { QuizzesList } from './features/quizzes/QuizzesList'
+import { AddQuizForm } from './features/quizzes/AddQuizForm'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <React.Fragment>
                 <AddPostForm />
                 <PostsList />
+                <AddQuizForm />
                 <QuizzesList />
               </React.Fragment>
             )}

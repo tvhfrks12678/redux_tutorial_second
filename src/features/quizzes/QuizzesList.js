@@ -8,7 +8,7 @@ export const QuizzesList = () => {
   const renderedQuizzes = quizzes.map((quiz) => (
     <question className="quiz-excerpt" key={quiz.id}>
       <h3>{question}</h3>
-      <p className="quiz-answer">{quiz.answer[0]}</p>
+      <p className="quiz-rhyme">{quiz.rhyme}</p>
     </question>
   ))
 

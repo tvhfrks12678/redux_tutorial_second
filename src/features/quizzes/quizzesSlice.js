@@ -35,7 +35,13 @@ const initialState = [
 const quizzesSlice = createSlice({
   name: 'quizzes',
   initialState,
-  reducers: {},
+  reducers: {
+    quizAdded(state, action) {
+      state.push(action.payload)
+    },
+  },
 })
+
+export const { quizAdded } = quizzesSlice.actions
 
 export default quizzesSlice.reducer
